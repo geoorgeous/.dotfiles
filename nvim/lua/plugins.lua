@@ -18,8 +18,11 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	{
-		"sainnhe/everforest",
+		"neanias/everforest-nvim",
 		config = function()
+			require("everforest").setup({
+				transparent_background_level = 1
+			})
 			vim.cmd.colorscheme("everforest")
 		end
 	},
@@ -73,6 +76,9 @@ require("lazy").setup({
 			fuzzy = { implementation = "prefer_rust_with_warning" }
 		},
 		opts_extend = { "sources.default" }
+	},
+	{
+		"lewis6991/gitsigns.nvim"
 	},
 	{
 		'nvim-lualine/lualine.nvim',
