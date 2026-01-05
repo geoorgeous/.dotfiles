@@ -1,0 +1,5 @@
+[user]
+	email = gh@georgemcdonagh.dev
+	name = geoorgeous
+[core]
+	editor = nvim
