@@ -1,7 +1,3 @@
-vim.opt.number = true
-
-vim.opt.relativenumber = true
-
 vim.opt.wrap = false
 
 vim.opt.clipboard = "unnamedplus"
@@ -18,11 +14,17 @@ vim.opt.termguicolors = true
 
 vim.o.signcolumn = "yes"
 vim.diagnostic.config({
-	virtual_lines = true,
+	virtual_text = true,
 	update_in_insert = true,
 })
 
+vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
 
-vim.o.winborder = "single"
+-- Normalise floating window and blink.cmp styles
+vim.o.winborder = "rounded"
+vim.api.nvim_set_hl(0, "Pmenu", { link = "Normal" })
+vim.api.nvim_set_hl(0, "NormalFloat", { link = "Normal" })
+vim.api.nvim_set_hl(0, "FloatBorder", { link = "NormalFloat" })

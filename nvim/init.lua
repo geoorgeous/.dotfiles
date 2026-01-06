@@ -1,4 +1,4 @@
-require("plugins");
-require("options");
-
-vim.lsp.enable({ "clangd", "lua_ls" })
+require("config/keymaps")
+require("config/lazy-nvim")
+require("config/options")
+require("config/lsp")
