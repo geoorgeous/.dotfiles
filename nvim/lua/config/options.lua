@@ -8,8 +8,6 @@ vim.opt.tabstop = 4
 -- fall back to tabstop
 vim.opt.shiftwidth = 0
 
-vim.opt.virtualedit = "block"
-
 vim.opt.termguicolors = true
 
 vim.o.signcolumn = "yes"
