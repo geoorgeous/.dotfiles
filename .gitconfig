@@ -3,3 +3,14 @@
 	name = geoorgeous
 [core]
 	editor = nvim
+	pager = delta
+[include]
+	path = ~/.dotfiles/themes.gitconfig
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+	navigate = true
+	features = arctic-fox
+[merge]
+    conflictStyle = zdiff3
+
