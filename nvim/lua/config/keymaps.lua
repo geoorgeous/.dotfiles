@@ -8,3 +8,4 @@ vim.keymap.set({"", "!"}, "<leader>f", ":FzfLua lgrep_curbuf<CR>", { desc = "Str
 vim.keymap.set({"", "!"}, "<leader><c-f>", ":FzfLua live_grep<CR>", { desc = "String search in project files"})
 vim.keymap.set({"", "!"}, "<leader>p", ":FzfLua files<CR>", { desc = "List project file"})
 vim.keymap.set({"", "!"}, "<leader><c-p>", ":FzfLua commands<CR>", { desc = "List Nvim commands"})
+vim.keymap.set({"", "!"}, "<leader>g", ":FzfLua git_status<CR>", { desc = "View git status and preview file diffs"})
