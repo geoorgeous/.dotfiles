@@ -1,0 +1,17 @@
+[user]
+	email = gh@georgemcdonagh.dev
+	name = geoorgeous
+[core]
+	editor = nvim
+	pager = delta
+	autocrlf = input
+[include]
+	path = ~/.dotfiles/themes.gitconfig
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+	navigate = true
+	features = arctic-fox
+[merge]
+    conflictStyle = zdiff3
+

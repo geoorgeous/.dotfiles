@@ -1,6 +1,9 @@
 {
   "blink.cmp": { "branch": "main", "commit": "b19413d214068f316c78978b08264ed1c41830ec" },
-  "everforest": { "branch": "master", "commit": "b90025cc84dbb9c46df5a2ae540d3f01cf85af74" },
+  "colorful-menu.nvim": { "branch": "master", "commit": "b51a659459df8d078201aefc995db8175ed55e84" },
+  "everforest-nvim": { "branch": "main", "commit": "557bce922401e247a596583679bc181d4d688554" },
+  "fzf-lua": { "branch": "main", "commit": "940ffbfb54842b1b2bdd7aacc35db998a952b616" },
+  "gitsigns.nvim": { "branch": "main", "commit": "42d6aed4e94e0f0bbced16bbdcc42f57673bd75e" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "47f91c416daef12db467145e16bed5bbfe00add8" },
   "nvim-lspconfig": { "branch": "master", "commit": "92ee7d42320edfbb81f3cad851314ab197fa324a" },
