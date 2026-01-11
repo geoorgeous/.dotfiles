@@ -14,7 +14,8 @@ return  {
 			}
 		},
 		files = {
-			git_icons = true
+			git_icons = true,
+			rg_opts = "--sort=path --color=never --files --hidden --follow -g '!.git'"
 		}
 	}
 }
