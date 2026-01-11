@@ -4,6 +4,7 @@
 [core]
 	editor = nvim
 	pager = delta
+	autocrlf = input
 [include]
 	path = ~/.dotfiles/themes.gitconfig
 [interactive]
