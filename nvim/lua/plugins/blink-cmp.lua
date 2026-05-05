@@ -3,11 +3,14 @@ return {
 	dependencies = { "xzbdmw/colorful-menu.nvim" },
 	version = '1.*',
 	opts = {
-		keymap = { preset = "enter" },
+		keymap = {
+			preset = "enter",
+			["<C-CR>"] = { "select_and_accept", "fallback" }
+		},
 		completion = {
 			list = {
 				selection = {
-					preselect = true,
+					preselect = false,
 					auto_insert = false
 				}
 			},
