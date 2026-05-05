@@ -2,6 +2,8 @@ vim.opt.wrap = false
 
 vim.opt.clipboard = "unnamedplus"
 
+vim.opt.swapfile = false
+
 vim.opt.scrolloff = 100
 
 vim.opt.tabstop = 4
