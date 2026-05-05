@@ -1,6 +1,7 @@
 [user]
 	email = gh@georgemcdonagh.dev
 	name = geoorgeous
+	signingkey = /home/george/.ssh/id_ed25519_github.pub
 [core]
 	editor = nvim
 	pager = delta
@@ -15,3 +16,7 @@
 [merge]
     conflictStyle = zdiff3
 
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
