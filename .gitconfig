@@ -1,7 +1,7 @@
 [user]
-	email = gh@georgemcdonagh.dev
-	name = geoorgeous
-	signingkey = /home/george/.ssh/id_ed25519_github.pub
+	email = mail@georgemcdonagh.dev
+	signingkey = 3B3F1B7F6A8FDFCE
+	name = George McDonagh
 [core]
 	editor = nvim
 	pager = delta
@@ -18,5 +18,5 @@
 
 [commit]
 	gpgsign = true
-[gpg]
-	format = ssh
+[tag]
+	gpgSign = true
