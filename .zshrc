@@ -13,6 +13,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+export GPG_TTY=$(tty)
+
 autoload -Uz colors
 colors
 
