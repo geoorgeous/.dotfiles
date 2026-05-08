@@ -47,6 +47,13 @@ vim.lsp.config('lua_ls', {
   }
 })
 
+vim.lsp.config('clangd', {
+	cmd = {
+		"clangd",
+		"--log=error"
+	}
+})
+
 local lsp_settings = {
 	servers = { "clangd", "lua_ls" }
 }
