@@ -50,7 +50,8 @@ vim.lsp.config('lua_ls', {
 vim.lsp.config('clangd', {
 	cmd = {
 		"clangd",
-		"--log=error"
+		"--log=error",
+		"--header-insertion=never"
 	}
 })
 
