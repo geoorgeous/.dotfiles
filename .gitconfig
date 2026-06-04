@@ -13,6 +13,7 @@
 [delta]
 	navigate = true
 	features = arctic-fox
+	tabs = 4
 [merge]
     conflictStyle = zdiff3
 
