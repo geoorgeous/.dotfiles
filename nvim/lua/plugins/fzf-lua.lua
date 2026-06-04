@@ -6,23 +6,26 @@ local files = {
 
 return  {
 	"ibhagwan/fzf-lua",
-	opts = {
-		winopts = {
-			height = 0.85,
-			width = 0.85,
-			preview = {
-				horizontal = "right:75%"
-			}
-		},
-		previewers = {
-			git_diff = {
-				cmd_modified = "git diff --color --ignore-space-at-eol HEAD"
-			}
-		},
-		files = files
-	},
 	config = function()
 		local fzf_lua = require('fzf-lua')
+
+		fzf_lua.setup({
+			winopts = {
+				height = 0.85,
+				width = 0.85,
+				preview = {
+					layout = "vertical",
+					vertical = "down:80%"
+				}
+			},
+			previewers = {
+				git_diff = {
+					cmd_modified = "git diff --color --ignore-space-at-eol HEAD"
+				}
+			},
+			files = files
+		})
+
 		local loaded_buffs = {}
 
 		-- Open fzf in the directory when opening a directory buffer
