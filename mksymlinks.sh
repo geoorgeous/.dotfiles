@@ -8,3 +8,5 @@ ln -sf $SCRIPTPATH/.zshrc $HOME/
 ln -sf $SCRIPTPATH/btop $HOME/.config/
 ln -sf $SCRIPTPATH/nvim $HOME/.config/
 ln -sf $SCRIPTPATH/kitty $HOME/.config/
+ln -sf $SCRIPTPATH/.themes $HOME/
+ln -sf $SCRIPTPATH/gtk-4.0 $HOME/.config/
