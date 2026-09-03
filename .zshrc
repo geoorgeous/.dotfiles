@@ -54,3 +54,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+alias gitc='git commit'
+alias gits='git status'
+alias gitl='git log --oneline --decorate --graph'
+alias gitd='git diff'
+alias gita='git add'
